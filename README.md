@@ -9,6 +9,11 @@ zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+# Plugins
+```bash 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # Purify Thema
 ```bash
 wget https://raw.githubusercontent.com/kyoz/purify/master/zsh/purify.zsh-theme -O ~/.oh-my-zsh/themes/purify.zsh-theme
@@ -16,6 +21,11 @@ wget https://raw.githubusercontent.com/kyoz/purify/master/zsh/purify.zsh-theme -
 
 
 ### Powerlevel10k Plugins
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+yay -S ttf-meslo-nerd-font-powerlvel10k
+```
+
 | Segment | Meaning |
 |--------:|---------|
 | `anaconda` | virtual environment from [conda](https://conda.io/) |
