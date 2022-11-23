@@ -1,4 +1,10 @@
 # ZSH
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Pfeffimann18/ZSH)
+![GitHub repo size](https://img.shields.io/github/repo-size/Pfeffimann18/ZSH)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/Pfeffimann18/ZSH)
+![GitHub](https://img.shields.io/github/license/Pfeffimann18/ZSH)
+</br>
+
 ```bash
 sudo pacman -S zsh zsh-autosuggestions
 chsh -s /usr/bin/zsh
