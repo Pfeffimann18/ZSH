@@ -1,30 +1,37 @@
 # ZSH
 ```bash
 sudo pacman -S zsh zsh-autosuggestions
+chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh
 zsh
 ```
+</br>
 
 # Oh My ZSH
 ```bash
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+</br>
 
-# Plugins
+## Plugins
 ```bash 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+</br>
 
-# Purify Thema
+## Purify Thema
 ```bash
 wget https://raw.githubusercontent.com/kyoz/purify/master/zsh/purify.zsh-theme -O ~/.oh-my-zsh/themes/purify.zsh-theme
 ```
 
 
-### Powerlevel10k Plugins
+## Powerlevel10k
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 yay -S ttf-meslo-nerd-font-powerlvel10k
 ```
+</br>
 
 | Segment | Meaning |
 |--------:|---------|
@@ -94,3 +101,6 @@ yay -S ttf-meslo-nerd-font-powerlvel10k
 | `vpn_ip` | virtual private network indicator |
 | `wifi` | WiFi speed |
 | `xplr` | [xplr](https://github.com/sayanarijit/xplr) shell |
+</br>
+
+Alternativ kann das `ZSH_install.sh`-Script zur Installation verwendet werden.
