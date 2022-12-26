@@ -7,6 +7,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=~/.local/bin:$PATH
 alias ls='logo-ls'
+alias uhr='tty-clock -s -c -B -C1'
 alias zconfig='nano ~/.zshrc'
 alias zsource='source ~/.zshrc'
 
