@@ -109,4 +109,5 @@ yay -S ttf-meslo-nerd-font-powerlevel10k
 | `xplr` | [xplr](https://github.com/sayanarijit/xplr) shell |
 </br>
 
+Um `Context` zu aktivieren entfernen sie die Zeile `typeset -g POWERLEVEL9K_CONTEXT_{DEFAULT,SUDO}_{CONTENT,VISUAL_IDENTIFIER}_EXPANSION=`.
 Alternativ kann das `ZSH_install.sh`-Script zur Installation verwendet werden.
